@@ -1,0 +1,12 @@
+body{
+    background-color: #FFFEFA;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+[logo]>img{
+    width: 7em;
+}
