@@ -1,12 +1,35 @@
 body{
-    background-color: #FFFEFA;
+    --primary-color: #822123;
+    --secondary-color: #FFFEFA;
+    padding: 2em;
+    background-color: var(--secondary-color);
 }
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2em;
 }
 
 [logo]>img{
     width: 7em;
+}
+
+nav{
+    display: flex;
+    gap: 1em;
+}
+
+nav>div{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--primary-color);
+}
+
+[menu-content]{
+    display: none;
+}
+
+[about-content]{
+    display: none;
 }
