@@ -85,7 +85,7 @@ document.addEventListener('click', (event) => {
         declarations.home.style.display = 'none';
         declarations.about.style.display = 'inline';
         declarations.menu.style.display = 'none';
-    } else if(tab.matches('[logo]')){
+    } else if(tab.matches('[logo] img')){
         declarations.home.style.display = 'inline';
         declarations.about.style.display = 'none';
         declarations.menu.style.display = 'none';
